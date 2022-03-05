@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/health"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+            android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="43dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/health" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HEALTH"
+            style="@style/Views"
+            android:layout_gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/Business"
+            android:layout_gravity="center"
+            android:padding="20dp">
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="43dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/businesss" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BUSINESS"
+            style="@style/Views" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/Sports"
+            android:layout_gravity="center"
+            android:padding="20dp">
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="43dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/sports" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPORTS"
+            style="@style/Views"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Entertainment"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:padding="20dp">
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="43dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/cinema" />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ENTERTAINMENT"
+                    style="@style/Views"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Science"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:padding="20dp">
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="43dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/science" />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SCIENCE"
+                    style="@style/Views"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Tech"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:padding="20dp">
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="43dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/tech" />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TECHNOLOGY"
+                    style="@style/Views"/>
+        </LinearLayout>
+</LinearLayout>
